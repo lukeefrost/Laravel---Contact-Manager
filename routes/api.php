@@ -25,17 +25,17 @@ Route::get('contact/{id}', function($id) {
 
 Route::post('contact/store', function(Request $request) {
     return Contact::create([
-      'name' => $request->input('name');
-      'email' => $request->input('email');
-      'phone' => $request->input('phone');
+      'name' => $request->input('name'),
+      'email' => $request->input('email'),
+      'phone' => $request->input('phone')
     ]);
 });
 
 Route::patch('contact/{id}', function(Request $request, $id) {
     Contact::findOrFail($id)->update([
-      'name' => $request->input('name');
-      'email' => $request->input('email');
-      'phone' => $request->input('phone');
+      'name' => $request->input('name'),
+      'email' => $request->input('email'),
+      'phone' => $request->input('phone')
     ]);
 });
 
