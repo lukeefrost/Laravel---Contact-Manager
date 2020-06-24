@@ -9,11 +9,11 @@
   <body>
       <div class="container">
           <div id="app">
-              <contact></contact>
+              <contacts></contacts>
           </div>
       </div>
 
-      <script src="/js/app/js">
+      <script src="/js/app.js">
 
       </script>
   </body>

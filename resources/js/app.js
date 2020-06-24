@@ -21,7 +21,7 @@ window.Vue = require('vue');
 
 let axios = require('axios');
 
-Vue.component('contacts', require('./components/Contact.vue').default);
+Vue.component('contacts', require('./components/Contacts.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
